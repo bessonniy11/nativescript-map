@@ -1,0 +1,13 @@
+{
+  "name": "nativescript-yandex-mapkit",
+  "version": "1.0.0",
+  "description": "Local NativeScript Yandex MapKit plugin",
+  "main": "./src/index",
+  "typings": "./src/index.d.ts",
+  "nativescript": {
+    "platforms": {
+      "android": "9.0.0"
+    }
+  },
+  "license": "Apache-2.0"
+}

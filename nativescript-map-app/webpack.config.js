@@ -6,5 +6,11 @@ module.exports = (env) => {
 	// Learn how to customize:
 	// https://docs.nativescript.org/webpack
 
-	return webpack.resolveConfig();
+	const config = webpack.resolveConfig();
+	
+	Object.assign(config.resolve.alias, {
+		"nativescript-yandex-mapkit": require("path").resolve(__dirname, "plugins/nativescript-yandex-mapkit/src/index"),
+	});
+	
+	return config;
 };

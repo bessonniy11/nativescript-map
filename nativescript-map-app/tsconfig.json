@@ -12,7 +12,8 @@
     "baseUrl": ".",
     "paths": {
       "~/*": ["app/*"],
-      "@/*": ["app/*"]
+      "@/*": ["app/*"],
+      "nativescript-yandex-mapkit": ["plugins/nativescript-yandex-mapkit/src/index"]
     }
   },
   "include": ["app/**/*"],
